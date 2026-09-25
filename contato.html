@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Chavrusa.Oy — estudo, cultura e tradição judaica em comunidade.">
+  <title>Contato | Chavrusa.Oy</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="container nav">
+    <a class="brand" href="index.html"><span class="brand-mark">ח</span> chavrusa.oy</a>
+    <button class="menu-toggle" aria-label="Abrir menu" aria-expanded="false">☰</button>
+    <nav><ul class="nav-links"><li><a class="" href="index.html">Início</a></li>
+<li><a class="" href="sobre.html">Havrusa</a></li>
+<li><a class="" href="estudos.html">Estudos</a></li>
+<li><a class="" href="biblioteca.html">Biblioteca</a></li>
+<li><a class="" href="comunidade.html">Comunidade</a></li>
+<li><a class="active" href="contato.html">Contato</a></li></ul></nav>
+  </div>
+</header>
+
+<main>
+<section class="page-hero">
+  <div class="page-ornaments" aria-hidden="true"><span></span><span></span><span></span><span></span></div>
+  <div class="container reveal">
+    <p class="eyebrow">קשר · CONTATO</p>
+    <h1 class="display">Fale com a gente.</h1>
+    <p class="lead">Quer sugerir um estudo, indicar uma fonte, conversar sobre a comunidade ou simplesmente mandar uma mensagem? Escreva.</p>
+  </div>
+</section>
+<section class="section">
+  <div class="container">
+    <div class="form-wrap reveal">
+      <!--
+        FORMULÁRIO SEM BACKEND PRÓPRIO:
+        1. Troque SEU-EMAIL@HAVRUSA.IO pelo endereço real.
+        2. No primeiro envio, o FormSubmit pedirá a confirmação do endereço.
+        3. Troque _next pelo domínio real quando o site estiver publicado.
+      -->
+      <form id="contact-form" action="https://formsubmit.co/SEU-EMAIL@HAVRUSA.IO" method="POST">
+        <input type="hidden" name="_subject" value="Mensagem recebida pelo site Chavrusa.Oy">
+        <input type="hidden" name="_template" value="table">
+        <input type="hidden" name="_next" value="https://havrusa.io/obrigado.html">
+        <input type="text" name="_honey" style="display:none" tabindex="-1" autocomplete="off">
+
+        <div class="form-grid">
+          <label>Seu nome
+            <input type="text" name="name" placeholder="Como podemos te chamar?" required>
+          </label>
+          <label>Seu e-mail
+            <input type="email" name="email" placeholder="voce@email.com" required>
+          </label>
+          <label>Assunto
+            <select name="subject" required>
+              <option value="">Escolha uma opção</option>
+              <option>Quero conhecer a comunidade</option>
+              <option>Sugestão de estudo</option>
+              <option>Indicação de fonte</option>
+              <option>Parceria</option>
+              <option>Outro</option>
+            </select>
+          </label>
+          <label>Mensagem
+            <textarea name="message" placeholder="Escreva sua mensagem..." required></textarea>
+          </label>
+          <button class="button primary" type="submit">Enviar mensagem</button>
+          <p class="small">O formulário será encaminhado para o e-mail da Chavrusa.Oy. Não coloque informações sensíveis.</p>
+        </div>
+      </form>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div>
+      <div class="footer-hebrew">חברותא</div>
+      <p>Torah, cultura, tradição e conversa. Um espaço judaico para estudar juntos.</p>
+    </div>
+    <div>
+      <div class="footer-title">Navegação</div>
+      <p><a href="sobre.html">O projeto</a></p>
+      <p><a href="estudos.html">Estudos</a></p>
+      <p><a href="biblioteca.html">Biblioteca</a></p>
+    </div>
+    <div>
+      <div class="footer-title">Comunidade</div>
+      <p><a href="comunidade.html">WhatsApp</a></p>
+      <p><a href="contato.html">Fale conosco</a></p>
+      <p><a href="#">Instagram</a></p>
+    </div>
+  </div>
+  <div class="container copyright">© <span data-year></span> Chavrusa.Oy · Feito com אהבה e לימוד.</div>
+</footer>
+<script src="js/script.js"></script>
+</body>
+</html>
